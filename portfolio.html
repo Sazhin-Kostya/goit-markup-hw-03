@@ -11,152 +11,169 @@
       rel="stylesheet"
     />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="head">
-      <nav>
-        <a href="./index.html" class="logo link"
-          ><span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span></a
-        >
-        <ul class="link">
-          <li>
-            <a href="./index.html" class="link link-nav"> Студія</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="link link-nav current"
-              >Портфоліо</a
+      <div class="container nav-contact">
+        <nav class="nav">
+          <a href="./index.html" class="logo link"
+            ><span class="logo-web">Web</span
+            ><span class="logo-studio">Studio</span></a
+          >
+          <ul class="link list-item">
+            <li class="list-nav">
+              <a href="./index.html" class="link link-nav current"> Студія</a>
+            </li>
+            <li class="list-nav">
+              <a href="./portfolio.html" class="link link-nav">Портфоліо</a>
+            </li>
+            <li class="list-nav">
+              <a href="./contacts.html" class="link link-nav">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="link list-contact">
+          <li class="item-contact">
+            <a href="mailto:info@devstudio.com" class="contact"
+              >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="./contacts.html" class="link link-nav">Контакти</a>
+          <li class="item-contact">
+            <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="link">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main class="portfolio">
-      <section>
-        <h1 class="visually-hidden">Приклади наших робіт</h1>
-        <ul class="portfolio-list">
-          <li><button type="button" class="portfolio-btn">Усі</button></li>
-          <li>
-            <button type="button" class="portfolio-btn">Веб-сайти</button>
-          </li>
-          <li><button type="button" class="portfolio-btn">Додатки</button></li>
-          <li><button type="button" class="portfolio-btn">Дизайн</button></li>
-          <li>
-            <button type="button" class="portfolio-btn">Маркетинг</button>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Приклади наших робіт</h1>
+          <ul class="portfolio-list portfolio-list-btn">
+            <li class="portfolio-bt-list">
+              <button type="button" class="portfolio-btn">Усі</button>
+            </li>
+            <li class="portfolio-bt-list">
+              <button type="button" class="portfolio-btn">Веб-сайти</button>
+            </li>
+            <li class="portfolio-bt-list">
+              <button type="button" class="portfolio-btn">Додатки</button>
+            </li>
+            <li class="portfolio-bt-list">
+              <button type="button" class="portfolio-btn">Дизайн</button>
+            </li>
+            <li class="portfolio-bt-list">
+              <button type="button" class="portfolio-btn">Маркетинг</button>
+            </li>
+          </ul>
 
-        <ul class="example portfolio-list">
-          <li>
-            <a href="" class="portfolio-href">
-              <img
-                src="./images/tehnokyak.jpg"
-                alt="Приклад роботи"
-                width="370"
-              />
-              <h2 class="portfolio-title">Технокряк</h2>
-              <p class="portfolio-item">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="portfolio-href">
-              <img
-                src="./images/neworlean.jpg"
-                alt="Приклад роботи"
-                width="370"
-              />
-              <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-item">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="portfolio-href">
-              <img
-                src="./images/restourant.jpg"
-                alt="Приклад роботи"
-                width="370"
-              />
-              <h2 class="portfolio-title">Ресторан Seafood</h2>
-              <p class="portfolio-item">Додаток</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="portfolio-href">
-              <img
-                src="./images/projektprime.jpg"
-                alt="Приклад роботи"
-                width="370"
-              />
-              <h2 class="portfolio-title">Проєкт Prime</h2>
-              <p class="portfolio-item">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="portfolio-href">
-              <img
-                src="./images/projektbox.jpg"
-                alt="Приклад роботи"
-                width="370"
-              />
-              <h2 class="portfolio-title">Проєкт Boxes</h2>
-              <p class="portfolio-item">Додаток</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="portfolio-href">
-              <img
-                src="./images/borders.jpg"
-                alt="Приклад роботи"
-                width="370"
-              />
-              <h2 class="portfolio-title">Inspiration has no Borders</h2>
-              <p class="portfolio-item">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="portfolio-href">
-              <img
-                src="./images/limitedadition.jpg"
-                alt="Приклад роботи"
-                width="370"
-              />
-              <h2 class="portfolio-title">Видання Limited Edition</h2>
-              <p class="portfolio-item">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="portfolio-href">
-              <img src="./images/lab.jpg" alt="Приклад роботи" width="370" />
-              <h2 class="portfolio-title">Проєкт LAB</h2>
-              <p class="portfolio-item">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="portfolio-href">
-              <img
-                src="./images/buisness.jpg"
-                alt="Приклад роботи"
-                width="370"
-              />
-              <h2 class="portfolio-title">Growing Business</h2>
-              <p class="portfolio-item">Додаток</p>
-            </a>
-          </li>
-        </ul>
+          <ul class="example portfolio-list">
+            <li>
+              <a href="" class="portfolio-href">
+                <img
+                  src="./images/tehnokyak.jpg"
+                  alt="Приклад роботи"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Технокряк</h2>
+                <p class="portfolio-item">Веб-сайт</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="portfolio-href">
+                <img
+                  src="./images/neworlean.jpg"
+                  alt="Приклад роботи"
+                  width="370"
+                />
+                <h2 class="portfolio-title">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="portfolio-item">Дизайн</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="portfolio-href">
+                <img
+                  src="./images/restourant.jpg"
+                  alt="Приклад роботи"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Ресторан Seafood</h2>
+                <p class="portfolio-item">Додаток</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="portfolio-href">
+                <img
+                  src="./images/projektprime.jpg"
+                  alt="Приклад роботи"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Проєкт Prime</h2>
+                <p class="portfolio-item">Маркетинг</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="portfolio-href">
+                <img
+                  src="./images/projektbox.jpg"
+                  alt="Приклад роботи"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Проєкт Boxes</h2>
+                <p class="portfolio-item">Додаток</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="portfolio-href">
+                <img
+                  src="./images/borders.jpg"
+                  alt="Приклад роботи"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                <p class="portfolio-item">Веб-сайт</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="portfolio-href">
+                <img
+                  src="./images/limitedadition.jpg"
+                  alt="Приклад роботи"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Видання Limited Edition</h2>
+                <p class="portfolio-item">Дизайн</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="portfolio-href">
+                <img src="./images/lab.jpg" alt="Приклад роботи" width="370" />
+                <h2 class="portfolio-title">Проєкт LAB</h2>
+                <p class="portfolio-item">Маркетинг</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="portfolio-href">
+                <img
+                  src="./images/buisness.jpg"
+                  alt="Приклад роботи"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Growing Business</h2>
+                <p class="portfolio-item">Додаток</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="foot">
