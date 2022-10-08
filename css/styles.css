@@ -378,6 +378,7 @@ body {
 
 .portfolio-btn{
     margin-bottom: 50px;
+    padding: 6px 22px;
     border-radius: 4px;
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -398,6 +399,8 @@ body {
     background-color: var(--accent-color);
     color:var(--main-bg);
 }
+
+
 
 .portfolio-href{
     text-decoration: none;
@@ -432,6 +435,7 @@ body {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    border: 1px solid #EEEEEE;
 }
 
 .img-name{
