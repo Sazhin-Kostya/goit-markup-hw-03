@@ -63,7 +63,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid red;
+   /* outline: 1px solid red;*/
 }
 
 /*header*/
@@ -171,9 +171,6 @@ body {
     background-color: var(--second-bg);
     text-align: center;
 }
-.hero-bg {
-    
-}
 
 .hero-title {
     margin-bottom: 30px;
@@ -203,7 +200,7 @@ body {
 
 /*плюси співпраці*/
 .pluss-work{
-    background-color: rgb(221, 119, 190);
+    background-color: var(--main-bg);
 }
 .pluss-work-title{
     font-weight: 700;
@@ -235,7 +232,7 @@ body {
 /*приклади робіт*/
 .example-work{
     text-align: center;
-    background-color: darkkhaki;
+    background-color: var(--main-bg)
 }
 .example-work-title{
     font-weight: 700;
@@ -274,6 +271,11 @@ body {
     color: var(--second-text-color);
 }
 
+.our-team-card{
+    border: 1px solid #FFFFFF;
+    
+}
+
 .our-team-name{
     margin-top: 30px;
     font-weight: 500;
@@ -291,10 +293,7 @@ body {
 }
 
 .our-team-block{
-    padding-left: auto;
-    padding-right: auto;
-    padding-top: auto;
-    padding-bottom: auto;
+    padding:10px;
 }
 /*footer*/
 
@@ -325,9 +324,7 @@ body {
     font-style: normal;
 }
 
-.logo-foot{
-    
-}
+
 
 .contacts-foot{
     display: inline-block;
@@ -347,7 +344,7 @@ body {
 /*Портфоліо*/
 .portfolio{
     background-color: var(--main-bg);
-    background-color: chartreuse;
+   
 }
 .visually-hidden{
     position: absolute;
@@ -372,9 +369,7 @@ body {
     list-style-type: none;
 }
 
-.portfolio-list-btn{
-    background-color: darkgray;
-}
+
 
 .portfolio-btn{
     margin-bottom: 50px;
@@ -435,7 +430,7 @@ body {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .img-name{
